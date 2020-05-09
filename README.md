@@ -4,32 +4,6 @@ debian-tarql is a base image that has openjdk java, bash, python 3, the AWS CLI 
 
 It is based on the image [debian-openjdk-python3-awscli](../debian-openjdk-python3-awscli/README.md).
 
-## Build
-
-### Build in Google Cloud
-
-Log in to Google Cloud first using the command: `gcloud auth login`.
-
-Then use the following command to build it:
-
-```
-../../dev-scripts/build-image.sh [--local | --gcp]
-```
-
-This script will build the image in Google Cloud if you used `--gcp` or build it locally if you used `--local` (which is the default) and publish
-it under the names:
-
- - `gcr.io/lgt-ekg/debian-tarql:0.2.1`
- - `gcr.io/lgt-ekg/debian-tarql:latest`
-
-
-### Build on Mac OS X
-
-TODO
-
-### Build on OpenShift
-
-TODO
 
 ### TARQL Info
 
