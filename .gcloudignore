@@ -1,0 +1,5 @@
+.gitignore
+image.id
+cloudbuild*
+*.code-workspace
+*.flag
