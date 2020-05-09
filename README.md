@@ -2,7 +2,7 @@
 
 debian-tarql is a base image that has openjdk java, bash, python 3, the AWS CLI and TARQL on board.
 
-It is based on the image [debian-openjdk-python3-awscli](../debian-openjdk-python3-awscli/README.md).
+It is based on the image [debian-openjdk-python3-awscli](https://github.com/ekgf/debian-openjdk-python3-awscli/README.md).
 
 
 ### TARQL Info
