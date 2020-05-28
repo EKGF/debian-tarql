@@ -1,4 +1,4 @@
-FROM ekgf/debian-openjdk-python3-awscli:0.0.2
+FROM ekgf/debian-openjdk-python3-awscli:0.0.3
 #
 # debian-openjdk-python3-awscli created the user ekgprocess (in the group "root", see openshift comments in base image)
 # with home directory /home/ekgprocess
